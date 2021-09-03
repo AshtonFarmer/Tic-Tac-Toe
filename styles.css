@@ -1,0 +1,37 @@
+#board {
+    padding: 3em;
+    text-align: center;
+}
+.row>div{
+float: left;
+height: 100px;
+width: 100px;
+}
+.row{
+    clear: both;
+    margin: auto;
+    width: 302px;
+}
+.top {
+    border-bottom-color: rgba(7, 119, 231, 0.5);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.bottom {
+    border-top-color: rgba(7, 119, 231, 0.5);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.left {
+    border-right-color: rgba(7, 119, 231, 0.5);
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.right {
+    border-left-color: rgba(7, 119, 231, 0.5);
+    border-left-style: solid;
+    border-left-width: 1px;
+}
