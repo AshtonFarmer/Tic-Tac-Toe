@@ -13,25 +13,30 @@ width: 100px;
     width: 302px;
 }
 .top {
-    border-bottom-color: rgba(7, 119, 231, 0.5);
+    border-bottom-color: rgba(255, 0, 0, 0.5);
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 
 .bottom {
-    border-top-color: rgba(7, 119, 231, 0.5);
+    border-top-color: rgba(0, 128, 255, 0.5);
     border-top-style: solid;
     border-top-width: 1px;
 }
 
 .left {
-    border-right-color: rgba(7, 119, 231, 0.5);
+    border-right-color: rgba(0, 255, 13, 0.5);
     border-right-style: solid;
     border-right-width: 1px;
 }
 
 .right {
-    border-left-color: rgba(7, 119, 231, 0.5);
+    border-left-color: rgba(7, 224, 231, 0.5);
     border-left-style: solid;
     border-left-width: 1px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
